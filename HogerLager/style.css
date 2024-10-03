@@ -1,0 +1,22 @@
+
+*{
+    background-color: grey;
+}
+
+h1 {
+    text-align:center;
+}
+
+ul {
+    text-align:center;
+}
+
+h1 {
+    font-size: 60px;  
+}
+    
+.my-button {
+    display: block;
+    margin: auto;
+  }
+
