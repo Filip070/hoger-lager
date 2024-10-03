@@ -15,3 +15,7 @@ h1 {
     font-size: 40px;  
 }
     
+.my-button {
+    display: block;
+    margin: auto;
+  }
