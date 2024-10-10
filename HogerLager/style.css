@@ -34,4 +34,8 @@ h1 {
     font-size: 24px;
   }
 
-
+  #mybutton:hover,
+  .my-button:hover {
+      transform: translateY(-5px); /* Lift effect */
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Shadow effect on hover */
+  }
