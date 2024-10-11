@@ -20,7 +20,26 @@
     <button id="mybutton">Throw dice</button>
     <p class="result"></p>
 
-    
+    <span class="bracket">[</span>
+<div id="die">
+    <div id="TopRow">&nbsp;&nbsp;&nbsp;</div>
+    <div id="MidRow">&nbsp;&nbsp;&nbsp;</div>
+    <div id="BotRow">&nbsp;&nbsp;&nbsp;</div>
+</div>
+<span class="bracket">]</span>
+
+#die {
+    display: inline-block; 
+    padding: 5px;             
+}
+
+span.bracket {
+    font-size: 95px;       
+}
+
+#TopRow, #MidRow, #BotRow {
+    font-weight: bold;           
+}
   
 
     <script src="HogerLager/main.js"></script>
