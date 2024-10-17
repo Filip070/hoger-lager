@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hoger of Lager</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Higher or Lower Game</title>
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <title> Hoger of Lager</title>
-   <link rel="stylesheet" href="HogerLager/style.css">
-    <h1>Hoger of Lager</h1>
-
-    <!--Button om naar het game screen te gaan-->   
-    <a href="start.html"><button class="my-button">Start Game</button></a>
-    
- <script src="HogerLager/main.js"></script>     
+<div class="container">
+<h1>Higher or Lower Game</h1>
+<div class="number" id="current-number">5</div>
+<div class="buttons">
+<button class="guess-button" id="higher">Higher</button>
+<button class="guess-button" id="lower">Lower</button>
+</div>
+<div class="result" id="result-message"></div>
+<button class="reset-button" id="reset">Play Again</button>
+</div>
+<script src="script.js"></script>
 </body>
 </html>
