@@ -1,5 +1,4 @@
-document.addEventListener('DOMContentLoaded', () => {
-    const currentNumberElement = document.querySelector('.number');
+     const currentNumberElement = document.querySelector('.number');
     const resultMessageElement = document.querySelector('.result');
     const higherButton = document.querySelector('.guess-button#higher');
     const lowerButton = document.querySelector('.guess-button#lower');
@@ -9,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
     currentNumberElement.textContent = currentNumber;
  
     function generateNewNumber() {
-        return Math.floor(Math.random() * 10) + 1; // genereert een nieuw getal
+        return Math.floor(Math.random() * 10) + 1; // genereert en geeft een nieuw getal
     }
  
     function checkGuess(guess) {
@@ -20,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
         } else {
             resultMessageElement.textContent = `Wrong! The new number is ${newNumber}.`;
         }
-        currentNumber = newNumber; // Update the current number
+        currentNumber = newNumber; // Update het getal
         currentNumberElement.textContent = currentNumber; // laat het nieuwe getal zien
     }
  
@@ -31,4 +30,3 @@ document.addEventListener('DOMContentLoaded', () => {
         currentNumberElement.textContent = currentNumber;
         resultMessageElement.textContent = '';
     });
-});
